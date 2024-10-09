@@ -11,6 +11,7 @@ console.log(campoPesquisa);
 
     // Itera sobre cada dado da lista de dados
     for (let dado of dados) {
+        if(dado.titulo.includes(campoPesquisa)) {
         // Cria um novo elemento HTML para cada resultado
         resultados += `
             <div class="item-resultado">
