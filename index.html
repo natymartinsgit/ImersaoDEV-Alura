@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" 
-    content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Diário da moda</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Moda Em Movimento</h1>    
-    </header> 
-<main>
-    <section>
-      <input type="text" placeholder="Digite o Estilo De Look" 
-      id="campo-pesquisa">
-      <button onclick="pesquisar()">Pesquisar</button>
- </section>
-<section class="resultados-pesquisa" 
-id="resultados-pesquisa">
-    </section>
-</main>
-<footer>
-        <p>2024 - Moda Em Movimento.Todos os direitos 
-        reservados</p>
-        <p>Entre em contato pelo email:
-        modaemmovimento@moda.com</p>
+      <h1>Moda Em Movimento</h1>
+    </header>
+    <main>
+      <section>
+        <input
+          type="text"
+          placeholder="Digite o Estilo De Look"
+          id="campoPesquisa"
+        />
+        <button onclick="pesquisar()">Pesquisar</button>
+        <button onclick="limpar()">Limpar</button>
+      </section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+      <p>2024 - Moda Em Movimento.Todos os direitos reservados</p>
+      <p>Entre em contato pelo email: modaemmovimento@moda.com</p>
     </footer>
 
-<script src="dados.js"></script>
-<script src="app.js"></script>
-
-</body>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
